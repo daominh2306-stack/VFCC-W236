@@ -1,0 +1,491 @@
+{
+  "title": "M&A Theory Learning Map",
+  "description": "A concise theory path for VFCC preparation across historical analysis, valuation, and board-level recommendation.",
+  "weeks": [
+    {
+      "id": "week-2",
+      "number": 2,
+      "label": "Week 2",
+      "title": "Historical Analysis and Forecast Architecture",
+      "summary": "Build a traceable three-year historical model and a driver-based five-year forecast that can support valuation, due diligence, and a board-level recommendation.",
+      "topics": [
+        {
+          "id": "w2-source-controlled-history",
+          "title": "Source-Controlled History",
+          "summary": "Create a consistent historical dataset in fixed units and periods, with every reported fact traceable to a filing, note, or case exhibit.",
+          "learningQuestions": [
+            "Can five sampled historical figures be traced to their exact source?",
+            "Do the model totals reconcile to the published statements?"
+          ],
+          "subtopics": [
+            "Three-year income statement, balance sheet, and cash flow history",
+            "Units, fiscal periods, and actual-versus-forecast labels",
+            "Source and assumption register",
+            "Reported-total reconciliations"
+          ],
+          "sourceIds": ["src-week2-module", "src-opentuition-statements"]
+        },
+        {
+          "id": "w2-operating-economics",
+          "title": "Operating Economics",
+          "summary": "Translate reported statements into operating drivers and explain how price, volume, mix, capacity, costs, and cash conversion shape performance.",
+          "learningQuestions": [
+            "Which operating drivers explain the historical revenue and margin bridges?",
+            "What evidence separates a durable trend from a temporary movement?"
+          ],
+          "subtopics": [
+            "Revenue bridge: price, volume, mix, acquisitions, foreign exchange, and disposals",
+            "Margin bridge: pricing, input costs, utilisation, labour, and overhead absorption",
+            "Investment bridge: maintenance and growth capital expenditure",
+            "Debt and cash bridge"
+          ],
+          "sourceIds": ["src-week2-module", "src-opentuition-statements"]
+        },
+        {
+          "id": "w2-working-capital",
+          "title": "Working Capital",
+          "summary": "Model operating working capital as a cash cycle, keeping cash and financing items separate from day-to-day operating balances.",
+          "learningQuestions": [
+            "Why can improving receivable days still coexist with weak revenue quality?",
+            "Which operating flow is the correct denominator for each days calculation?"
+          ],
+          "subtopics": [
+            "Receivable, inventory, and payable days",
+            "Operating net working capital",
+            "Cash operating cycle",
+            "Seasonality, ageing, factoring, and supplier finance"
+          ],
+          "sourceIds": ["src-week2-module", "src-opentuition-working-capital"]
+        },
+        {
+          "id": "w2-normalisation-quality",
+          "title": "Normalisation and Quality",
+          "summary": "Keep reported and adjusted performance separate, and test whether earnings, assets, liabilities, and cash conversion represent sustainable economics.",
+          "learningQuestions": [
+            "Is each adjustment supported by recurrence, operating relevance, cash effect, and forecast treatment?",
+            "How should weak information quality change assumptions, valuation range, or the price ceiling?"
+          ],
+          "subtopics": [
+            "Quality-of-earnings bridge",
+            "Recurring versus non-recurring items",
+            "Capitalisation and classification choices",
+            "Accruals, provisions, estimates, and disclosure consistency"
+          ],
+          "sourceIds": ["src-week2-module", "src-wangerin-2019", "src-mcnichols-stubben-2015"]
+        },
+        {
+          "id": "w2-driver-forecast",
+          "title": "Driver-Based Forecast",
+          "summary": "Build the forecast in causal order so that operational assumptions flow through revenue, costs, working capital, investment, tax, and financing.",
+          "learningQuestions": [
+            "What operational evidence supports each forecast driver?",
+            "Do changes to a key assumption flow through the complete model?"
+          ],
+          "subtopics": [
+            "Price-volume and business-specific revenue drivers",
+            "Variable, semi-variable, and fixed operating costs",
+            "Capital expenditure, depreciation, and asset roll-forwards",
+            "Accounting tax, cash tax, financing, and balance items"
+          ],
+          "sourceIds": ["src-week2-module", "src-opentuition-cash-flows"]
+        },
+        {
+          "id": "w2-scenarios-controls",
+          "title": "Scenarios and Controls",
+          "summary": "Use coherent base, upside, and downside narratives, with traceable assumptions, controlled circularity, and a prominent error-check panel.",
+          "learningQuestions": [
+            "Does each scenario tell a plausible operating story rather than apply a uniform haircut?",
+            "Can an independent reviewer detect stale links, hard-coded outputs, and unintended circularity?"
+          ],
+          "subtopics": [
+            "Base, upside, and downside operating narratives",
+            "Scenario switches",
+            "Balance, flow, and roll-forward checks",
+            "Independent formula and source review"
+          ],
+          "sourceIds": ["src-week2-module"]
+        },
+        {
+          "id": "w2-ev-equity-bridge",
+          "title": "EV-to-Equity Bridge",
+          "summary": "Translate enterprise value to equity value using a documented and internally consistent classification of cash, debt, leases, investments, and other claims.",
+          "learningQuestions": [
+            "Is each bridge item treated consistently with the forecast and valuation method?",
+            "Which bridge classification is most judgmental and what evidence would resolve it?"
+          ],
+          "subtopics": [
+            "Excess and restricted cash",
+            "Borrowings and lease liabilities",
+            "Pensions, minority interests, and non-operating investments",
+            "Supplier finance, provisions, and tax liabilities"
+          ],
+          "sourceIds": ["src-week2-module", "src-opentuition-afm"]
+        }
+      ]
+    },
+    {
+      "id": "week-3",
+      "number": 3,
+      "label": "Week 3",
+      "title": "Valuation and Transaction Pricing",
+      "summary": "Convert operating forecasts into a defensible valuation range, reconcile multiple methods, and define a price boundary that reflects risk and deal logic.",
+      "topics": [
+        {
+          "id": "w3-valuation-frame",
+          "title": "Valuation Frame",
+          "summary": "Define the asset being valued, the valuation date, the ownership claim, and the information available before choosing a method.",
+          "learningQuestions": [
+            "Are enterprise and equity value kept distinct throughout the analysis?",
+            "Which valuation methods fit the business and the decision?"
+          ],
+          "subtopics": [
+            "Valuation date and information set",
+            "Going-concern and control assumptions",
+            "Enterprise value versus equity value",
+            "Method selection and triangulation"
+          ],
+          "sourceIds": ["src-damodaran-valuation", "src-mckinsey-valuation"]
+        },
+        {
+          "id": "w3-discounted-cash-flow",
+          "title": "Discounted Cash Flow",
+          "summary": "Value the operating business from forecast free cash flow, using internally consistent cash flows, discount rates, and timing conventions.",
+          "learningQuestions": [
+            "Do the cash-flow definition and discount rate measure the same claim?",
+            "Which forecast assumptions drive most of the present value?"
+          ],
+          "subtopics": [
+            "Unlevered and levered cash flow",
+            "Mid-year and year-end timing",
+            "Present value mechanics",
+            "Reconciliation to the operating forecast"
+          ],
+          "sourceIds": ["src-damodaran-valuation", "src-opentuition-afm"]
+        },
+        {
+          "id": "w3-discount-rate",
+          "title": "Discount Rate",
+          "summary": "Estimate a discount rate that matches the currency, risk, leverage, and cash-flow claim without hiding operating uncertainty inside one premium.",
+          "learningQuestions": [
+            "Are risk-free rate, beta, risk premium, and cost of debt measured consistently?",
+            "How does target capital structure affect WACC?"
+          ],
+          "subtopics": [
+            "Cost of equity and CAPM",
+            "Cost of debt and tax shield",
+            "Unlevering and relevering beta",
+            "Currency, country risk, and capital structure"
+          ],
+          "sourceIds": ["src-damodaran-data", "src-damodaran-valuation"]
+        },
+        {
+          "id": "w3-terminal-value",
+          "title": "Terminal Value",
+          "summary": "Model a mature steady state that respects reinvestment, growth, returns on capital, and the economic life of the business.",
+          "learningQuestions": [
+            "Is perpetual growth supportable in the chosen currency and market?",
+            "Does terminal reinvestment support the assumed growth?"
+          ],
+          "subtopics": [
+            "Perpetuity-growth method",
+            "Exit-multiple cross-check",
+            "Steady-state margins and reinvestment",
+            "Terminal-value concentration risk"
+          ],
+          "sourceIds": ["src-damodaran-valuation", "src-mckinsey-valuation"]
+        },
+        {
+          "id": "w3-trading-comparables",
+          "title": "Trading Comparables",
+          "summary": "Select genuinely comparable public companies, normalise the metrics, and interpret observed multiples in light of growth, risk, and profitability.",
+          "learningQuestions": [
+            "What makes a peer economically comparable rather than merely similar by label?",
+            "Are numerator and denominator definitions consistent?"
+          ],
+          "subtopics": [
+            "Peer selection and business mix",
+            "EV-based and equity-based multiples",
+            "Historical versus forward metrics",
+            "Outliers, accounting differences, and implied values"
+          ],
+          "sourceIds": ["src-cfa-equity", "src-mckinsey-valuation"]
+        },
+        {
+          "id": "w3-precedent-transactions",
+          "title": "Precedent Transactions",
+          "summary": "Use prior deals carefully by separating market conditions, control, expected synergies, and transaction-specific terms from stand-alone value.",
+          "learningQuestions": [
+            "Are the selected transactions comparable in timing, size, geography, and economics?",
+            "What portion of an observed premium may reflect expected synergies or competition?"
+          ],
+          "subtopics": [
+            "Transaction-screen design",
+            "Announcement-date metrics",
+            "Control premiums and embedded synergies",
+            "Deal terms and market-cycle effects"
+          ],
+          "sourceIds": ["src-cfa-equity", "src-mckinsey-valuation"]
+        },
+        {
+          "id": "w3-synergies-price",
+          "title": "Synergies and Price",
+          "summary": "Separate stand-alone value from buyer-specific synergies and translate valuation evidence into a range, walk-away price, and negotiation logic.",
+          "learningQuestions": [
+            "Who can realise each synergy and what will it cost?",
+            "How much expected value can be paid away before the buyer destroys value?"
+          ],
+          "subtopics": [
+            "Revenue, cost, tax, and financing synergies",
+            "Timing, probability, and implementation cost",
+            "Sensitivity and scenario ranges",
+            "Offer range and maximum price"
+          ],
+          "sourceIds": ["src-mckinsey-valuation", "src-koller-ma"]
+        }
+      ]
+    },
+    {
+      "id": "week-6",
+      "number": 6,
+      "label": "Week 6",
+      "title": "Recommendation and Board Defence",
+      "summary": "Integrate strategy, valuation, financing, risk, and execution into a clear recommendation that can withstand board-level questions.",
+      "topics": [
+        {
+          "id": "w6-decision-thesis",
+          "title": "Decision Thesis",
+          "summary": "State the decision, the strategic and financial reasons for it, and the conditions that would change the recommendation.",
+          "learningQuestions": [
+            "Can the recommendation be understood before the supporting detail?",
+            "Does each reason link to evidence and a decision consequence?"
+          ],
+          "subtopics": [
+            "Proceed, renegotiate, pause, or decline",
+            "Strategic rationale and financial evidence",
+            "Alternatives considered",
+            "Conditions, thresholds, and decision boundaries"
+          ],
+          "sourceIds": ["src-week2-module", "src-mckinsey-valuation"]
+        },
+        {
+          "id": "w6-deal-structure",
+          "title": "Deal Structure",
+          "summary": "Design price form, financing, protections, and governance so that transaction terms respond to identified value drivers and risks.",
+          "learningQuestions": [
+            "Which risks belong in price, structure, diligence, or a contractual protection?",
+            "How do financing and consideration affect risk, control, and value transfer?"
+          ],
+          "subtopics": [
+            "Cash, shares, debt, and mixed consideration",
+            "Earn-outs, escrows, and contingent value",
+            "Financing capacity and pro forma leverage",
+            "Representations, covenants, and closing conditions"
+          ],
+          "sourceIds": ["src-gaughan-ma", "src-koller-ma"]
+        },
+        {
+          "id": "w6-risk-case",
+          "title": "Risk Case",
+          "summary": "Prioritise the uncertainties that could change value or feasibility and connect each risk to evidence, exposure, mitigation, and ownership.",
+          "learningQuestions": [
+            "Which risks could invalidate the base case or prevent closing?",
+            "Is each mitigation specific enough to monitor after approval?"
+          ],
+          "subtopics": [
+            "Commercial, financial, operational, legal, and execution risk",
+            "Likelihood and value exposure",
+            "Mitigation and responsible owner",
+            "Triggers for repricing or no-deal"
+          ],
+          "sourceIds": ["src-wangerin-2019", "src-gaughan-ma"]
+        },
+        {
+          "id": "w6-integration-value",
+          "title": "Integration and Value",
+          "summary": "Translate the deal thesis into an executable value-capture plan with accountable owners, realistic timing, investment needs, and safeguards for the base business.",
+          "learningQuestions": [
+            "Which actions must occur for the valuation case to be realised?",
+            "How will the team distinguish realised value from market or base-business effects?"
+          ],
+          "subtopics": [
+            "Day-one readiness and first-100-day priorities",
+            "Synergy initiatives, costs, timing, and owners",
+            "Customer, talent, systems, and culture risks",
+            "Value-capture measures and governance"
+          ],
+          "sourceIds": ["src-koller-ma", "src-gaughan-ma"]
+        },
+        {
+          "id": "w6-advisory-memo",
+          "title": "Advisory Memo",
+          "summary": "Write a concise board-level memo that leads with the recommendation and uses exhibits to make the evidence, valuation, risks, and conditions easy to audit.",
+          "learningQuestions": [
+            "Can a decision-maker follow the logic without opening the model?",
+            "Do exhibits answer a decision question rather than merely display analysis?"
+          ],
+          "subtopics": [
+            "Executive recommendation",
+            "Strategic and financial case",
+            "Valuation range and price boundary",
+            "Risks, conditions, implementation, and appendices"
+          ],
+          "sourceIds": ["src-vfcc-proposal", "src-week2-module"]
+        },
+        {
+          "id": "w6-presentation-story",
+          "title": "Presentation Story",
+          "summary": "Turn the analysis into a focused sequence of decision messages, with readable exhibits and disciplined allocation of presentation time.",
+          "learningQuestions": [
+            "Does every slide advance the board's decision?",
+            "Can the team explain the recommendation, valuation, and principal risk within the time limit?"
+          ],
+          "subtopics": [
+            "Situation, answer, reasons, and action",
+            "Message-led slide titles",
+            "Readable charts, tables, and model outputs",
+            "Timing, transitions, and team coordination"
+          ],
+          "sourceIds": ["src-vfcc-proposal", "src-duarte-resonate"]
+        },
+        {
+          "id": "w6-qa-defence",
+          "title": "Q&A Defence",
+          "summary": "Defend the recommendation by answering the question first, supporting it with model evidence, and stating uncertainty without losing the decision boundary.",
+          "learningQuestions": [
+            "Can every team member explain the model's critical assumptions and checks?",
+            "What evidence would cause the team to change its view?"
+          ],
+          "subtopics": [
+            "Question-first responses",
+            "Assumption, sensitivity, and source fluency",
+            "Challenges to strategy, valuation, and execution",
+            "Cold review, rehearsal, and response ownership"
+          ],
+          "sourceIds": ["src-vfcc-proposal", "src-week2-module", "src-duarte-resonate"]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-week2-module",
+      "title": "VFCC 2026 Week 2 Content",
+      "citation": "VFCC. 2026. Week 2: Historical Analysis and Forecast Architecture. Prepared 17 September 2026.",
+      "type": "Guide",
+      "priority": "Core",
+      "verificationNote": "Repository source document; detailed module content and wording verified locally."
+    },
+    {
+      "id": "src-vfcc-proposal",
+      "title": "VFCC Inaugural-Year Proposal",
+      "citation": "Vietnam Finance Association International. 2026. Vietnam Finance Case Competition Inaugural-Year Proposal.",
+      "type": "Guide",
+      "priority": "Core",
+      "verificationNote": "Repository source document; competition outputs, judging focus, and format verified locally."
+    },
+    {
+      "id": "src-wangerin-2019",
+      "title": "M&A Due Diligence and Post-Acquisition Performance",
+      "citation": "Wangerin, D. 2019. M&A Due Diligence, Post-Acquisition Performance, and Financial Reporting for Business Combinations. Contemporary Accounting Research 36(4), 2344–2378.",
+      "type": "Paper",
+      "priority": "Core",
+      "url": "https://doi.org/10.1111/1911-3846.12520"
+    },
+    {
+      "id": "src-mcnichols-stubben-2015",
+      "title": "Target-Firm Accounting Quality",
+      "citation": "McNichols, M. F. and Stubben, S. R. 2015. The Effect of Target-Firm Accounting Quality on Valuation in Acquisitions. Review of Accounting Studies 20(1), 110–140.",
+      "type": "Paper",
+      "priority": "Core",
+      "url": "https://doi.org/10.1007/s11142-014-9293-x"
+    },
+    {
+      "id": "src-opentuition-statements",
+      "title": "Interpretation of Financial Statements",
+      "citation": "OpenTuition. Interpretation of Financial Statements. ACCA Financial Accounting notes.",
+      "type": "Guide",
+      "priority": "Recommended",
+      "url": "https://opentuition.com/acca/fa/interpretation-financial-statements/"
+    },
+    {
+      "id": "src-opentuition-working-capital",
+      "title": "Management of Working Capital",
+      "citation": "OpenTuition. Management of Working Capital. ACCA Financial Management notes.",
+      "type": "Guide",
+      "priority": "Recommended",
+      "url": "https://opentuition.com/acca/fm/management-of-working-capital/"
+    },
+    {
+      "id": "src-opentuition-cash-flows",
+      "title": "Relevant Cash Flows for DCF",
+      "citation": "OpenTuition. Relevant Cash Flows for DCF. ACCA Financial Management notes.",
+      "type": "Guide",
+      "priority": "Recommended",
+      "url": "https://opentuition.com/acca/fm/relevant-cash-flows-for-dcf/"
+    },
+    {
+      "id": "src-opentuition-afm",
+      "title": "Mergers, Acquisitions, and Valuation",
+      "citation": "OpenTuition. ACCA Advanced Financial Management lectures and notes on mergers, acquisitions, and valuation.",
+      "type": "Guide",
+      "priority": "Recommended",
+      "url": "https://opentuition.com/acca/afm/"
+    },
+    {
+      "id": "src-damodaran-valuation",
+      "title": "Investment Valuation",
+      "citation": "Damodaran, A. 2012. Investment Valuation: Tools and Techniques for Determining the Value of Any Asset. 3rd edition. Wiley.",
+      "type": "Book",
+      "priority": "Core",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/inv.html"
+    },
+    {
+      "id": "src-damodaran-data",
+      "title": "Data for Valuation",
+      "citation": "Damodaran, A. Data for valuation: risk premiums, betas, capital structure, and multiples. NYU Stern.",
+      "type": "Website",
+      "priority": "Recommended",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html"
+    },
+    {
+      "id": "src-mckinsey-valuation",
+      "title": "Valuation",
+      "citation": "Koller, T., Goedhart, M., and Wessels, D. 2020. Valuation: Measuring and Managing the Value of Companies. 7th edition. Wiley.",
+      "type": "Book",
+      "priority": "Core",
+      "verificationNote": "Use the edition available through your institution and confirm chapter references before submission."
+    },
+    {
+      "id": "src-cfa-equity",
+      "title": "Equity Asset Valuation",
+      "citation": "Pinto, J. E., Henry, E., Robinson, T. R., and Stowe, J. D. 2020. Equity Asset Valuation. 4th edition. CFA Institute Investment Series.",
+      "type": "Book",
+      "priority": "Recommended",
+      "verificationNote": "Consult the comparable-company and market-based valuation chapters in the edition available to the team."
+    },
+    {
+      "id": "src-koller-ma",
+      "title": "Valuation and M&A Value Creation",
+      "citation": "Koller, T., Goedhart, M., and Wessels, D. 2020. Valuation: Measuring and Managing the Value of Companies. Sections on acquisitions, synergies, and value creation.",
+      "type": "Book",
+      "priority": "Core",
+      "verificationNote": "Source overlaps with the full Valuation citation; listed separately to identify its M&A application."
+    },
+    {
+      "id": "src-gaughan-ma",
+      "title": "Mergers, Acquisitions, and Corporate Restructurings",
+      "citation": "Gaughan, P. A. 2018. Mergers, Acquisitions, and Corporate Restructurings. 7th edition. Wiley.",
+      "type": "Book",
+      "priority": "Recommended",
+      "verificationNote": "Use for transaction structure, process, and integration concepts; verify the edition used by the team."
+    },
+    {
+      "id": "src-duarte-resonate",
+      "title": "Resonate",
+      "citation": "Duarte, N. 2010. Resonate: Present Visual Stories that Transform Audiences. Wiley.",
+      "type": "Book",
+      "priority": "Recommended",
+      "url": "https://www.duarte.com/resources/books/resonate/"
+    }
+  ]
+}
